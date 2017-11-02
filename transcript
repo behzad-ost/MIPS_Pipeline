@@ -1,0 +1,86 @@
+# Reading C:/altera/13.0sp1/Modelsim/modelsim_ase/tcl/vsim/pref.tcl 
+# OpenFile {C:/Users/user/Desktop/CA3_pipeline/Pipelined MIPS.mpf} 
+# Loading project Pipelined MIPS
+# Compile of stageRegister.v was successful.
+# Compile of datapath.v was successful.
+# Compile of equalCheck.v was successful.
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of CPU.v was successful.
+# Compile of Test_CPU.v was successful.
+# Compile of ForwardUnit.v was successful.
+# Compile of HazardDetect.v was successful.
+# Compile of beqForwardUnit.v was successful.
+# 18 compiles, 0 failed with no errors. 
+# Compile of stageRegister.v was successful.
+# Compile of datapath.v was successful.
+# Compile of equalCheck.v was successful.
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of CPU.v was successful.
+# Compile of Test_CPU.v was successful.
+# Compile of ForwardUnit.v was successful.
+# Compile of HazardDetect.v was successful.
+# Compile of beqForwardUnit.v was successful.
+# 18 compiles, 0 failed with no errors. 
+vsim -gui work.test_CPU
+# vsim -gui work.test_CPU 
+# Loading work.test_CPU
+# Loading work.CPU
+# Loading work.MIPS_Controller
+# Loading work.datapath
+# Loading work.Register
+# Loading work.Adder
+# Loading work.MUX
+# Loading work.InstructionMemory
+# Loading work.stageRegister
+# Loading work.RegFile
+# Loading work.HazardDetect
+# Loading work.equalCheck
+# Loading work.SignExtend
+# Loading work.Shifter
+# Loading work.beqForwardUnit
+# Loading work.ALU
+# Loading work.ForwardUnit
+# Loading work.Memory
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/CA3_pipeline/datapath.v(71): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'rst'. The port definition is at: C:/Users/user/Desktop/CA3_pipeline/stageRegister.v(1).
+# 
+#         Region: /test_CPU/MIPS/MIPS_DP/IF_ID
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/CA3_pipeline/datapath.v(99): [PCDPC] - Port size (32 or 32) does not match connection size (80) for port 'I2'. The port definition is at: C:/Users/user/Desktop/CA3_pipeline/MUX.v(2).
+# 
+#         Region: /test_CPU/MIPS/MIPS_DP/ID_data_Mux
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/CA3_pipeline/datapath.v(116): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'ld'. The port definition is at: C:/Users/user/Desktop/CA3_pipeline/stageRegister.v(1).
+# 
+#         Region: /test_CPU/MIPS/MIPS_DP/ID_EX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/CA3_pipeline/datapath.v(116): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'rst'. The port definition is at: C:/Users/user/Desktop/CA3_pipeline/stageRegister.v(1).
+# 
+#         Region: /test_CPU/MIPS/MIPS_DP/ID_EX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/CA3_pipeline/datapath.v(156): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'ld'. The port definition is at: C:/Users/user/Desktop/CA3_pipeline/stageRegister.v(1).
+# 
+#         Region: /test_CPU/MIPS/MIPS_DP/EX_Mem
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/CA3_pipeline/datapath.v(156): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'rst'. The port definition is at: C:/Users/user/Desktop/CA3_pipeline/stageRegister.v(1).
+# 
+#         Region: /test_CPU/MIPS/MIPS_DP/EX_Mem
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/CA3_pipeline/datapath.v(177): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'ld'. The port definition is at: C:/Users/user/Desktop/CA3_pipeline/stageRegister.v(1).
+# 
+#         Region: /test_CPU/MIPS/MIPS_DP/Mem_WB
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/CA3_pipeline/datapath.v(177): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'rst'. The port definition is at: C:/Users/user/Desktop/CA3_pipeline/stageRegister.v(1).
+# 
+#         Region: /test_CPU/MIPS/MIPS_DP/Mem_WB
+run -all

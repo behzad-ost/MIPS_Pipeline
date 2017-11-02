@@ -1,0 +1,127 @@
+C:/Users/user/Desktop/CA3_pipeline/ForwardUnit.v {1 {vlog -work work C:/Users/user/Desktop/CA3_pipeline/ForwardUnit.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ForwardUnit
+
+Top level modules:
+	ForwardUnit
+
+} {} {}} C:/Users/user/Desktop/CA3_pipeline/register.v {1 {vlog -work work C:/Users/user/Desktop/CA3_pipeline/register.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}} C:/Users/user/Desktop/CA3_pipeline/RegFile.v {1 {vlog -work work C:/Users/user/Desktop/CA3_pipeline/RegFile.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module RegFile
+
+Top level modules:
+	RegFile
+
+} {} {}} C:/Users/user/Desktop/CA3_pipeline/equalCheck.v {1 {vlog -work work C:/Users/user/Desktop/CA3_pipeline/equalCheck.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module equalCheck
+
+Top level modules:
+	equalCheck
+
+} {} {}} C:/Users/user/Desktop/CA3_pipeline/CPU.v {1 {vlog -work work C:/Users/user/Desktop/CA3_pipeline/CPU.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module CPU
+
+Top level modules:
+	CPU
+
+} {} {}} C:/Users/user/Desktop/CA3_pipeline/Adder.v {1 {vlog -work work C:/Users/user/Desktop/CA3_pipeline/Adder.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}} C:/Users/user/Desktop/CA3_pipeline/stageRegister.v {1 {vlog -work work C:/Users/user/Desktop/CA3_pipeline/stageRegister.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module stageRegister
+
+Top level modules:
+	stageRegister
+
+} {} {}} C:/Users/user/Desktop/CA3_pipeline/SignExtend.v {1 {vlog -work work C:/Users/user/Desktop/CA3_pipeline/SignExtend.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module SignExtend
+
+Top level modules:
+	SignExtend
+
+} {} {}} C:/Users/user/Desktop/CA3_pipeline/InstructionMemory.v {1 {vlog -work work C:/Users/user/Desktop/CA3_pipeline/InstructionMemory.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module InstructionMemory
+
+Top level modules:
+	InstructionMemory
+
+} {} {}} C:/Users/user/Desktop/CA3_pipeline/Controller.v {1 {vlog -work work C:/Users/user/Desktop/CA3_pipeline/Controller.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MIPS_Controller
+
+Top level modules:
+	MIPS_Controller
+
+} {} {}} C:/Users/user/Desktop/CA3_pipeline/beqForwardUnit.v {1 {vlog -work work C:/Users/user/Desktop/CA3_pipeline/beqForwardUnit.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module beqForwardUnit
+
+Top level modules:
+	beqForwardUnit
+
+} {} {}} C:/Users/user/Desktop/CA3_pipeline/Shifter.v {1 {vlog -work work C:/Users/user/Desktop/CA3_pipeline/Shifter.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Shifter
+
+Top level modules:
+	Shifter
+
+} {} {}} C:/Users/user/Desktop/CA3_pipeline/Test_CPU.v {1 {vlog -work work C:/Users/user/Desktop/CA3_pipeline/Test_CPU.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module test_CPU
+
+Top level modules:
+	test_CPU
+
+} {} {}} C:/Users/user/Desktop/CA3_pipeline/datapath.v {1 {vlog -work work C:/Users/user/Desktop/CA3_pipeline/datapath.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} C:/Users/user/Desktop/CA3_pipeline/Memory.v {1 {vlog -work work C:/Users/user/Desktop/CA3_pipeline/Memory.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Memory
+
+Top level modules:
+	Memory
+
+} {} {}} C:/Users/user/Desktop/CA3_pipeline/ALU.v {1 {vlog -work work C:/Users/user/Desktop/CA3_pipeline/ALU.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/user/Desktop/CA3_pipeline/MUX.v {1 {vlog -work work C:/Users/user/Desktop/CA3_pipeline/MUX.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MUX
+
+Top level modules:
+	MUX
+
+} {} {}} C:/Users/user/Desktop/CA3_pipeline/HazardDetect.v {1 {vlog -work work C:/Users/user/Desktop/CA3_pipeline/HazardDetect.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module HazardDetect
+
+Top level modules:
+	HazardDetect
+
+} {} {}}
